@@ -1,0 +1,27 @@
+.text-box-v2-wrapper {
+    position: relative;
+    margin: 10px 20px;
+
+    .dx-texteditor-input-container input,
+    .dx-placeholder {
+        padding: 0 30px !important;
+    }
+
+    .prefix-wrapper {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 21px;
+        margin: 0 5px;
+        z-index: 1;
+    }
+
+    .suffix-wrapper {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 21px;
+        margin: 0 5px;
+        z-index: 1;
+    }
+}

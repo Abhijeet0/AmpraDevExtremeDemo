@@ -1,0 +1,22 @@
+.customised-components-page-wrapper {
+    h5 {
+        margin: 0 40px !important;
+        padding: 10px 0 5px 0;
+    }
+
+    .content-wrapper {
+        position: relative;
+        text-align: center;
+
+        .btn-refresh-image {
+            position: absolute;
+            right: 55px;
+            top: 15px;
+            background-color: rgba($color: #fff, $alpha: 0.8);
+        }
+
+        &>img {
+            max-height: calc(100vh - 160px);
+        }
+    }
+}
